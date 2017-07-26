@@ -1,0 +1,7 @@
+node_modules
+.DS_Store
+debug.log
+docs
+.vscode
+yarn.lock
+/public/app/userShowrooms
