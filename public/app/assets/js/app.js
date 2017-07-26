@@ -367,7 +367,8 @@ $(document).ready(function () {
       for (var i = 0; i < data.length; i++) {
         var $imgThumbnail = $("<img>").addClass("img-responsive img-thumbnail img-base").attr("data-src", data[i].file_path + data[i].file_name).attr("data-drag", false)
           .attr("data-width", fabCanvas.width).attr("data-height", fabCanvas.height).attr("data-x", 0).attr("data-y", 0).attr("data-name", "room").attr("data-type", "room")
-          .attr("src", data[i].file_path + "tn_" + data[i].file_name).attr("width", "150px").attr("alt", data[i].obj_name).attr("data-obj-id", data[i].id);
+          //deleted this "tn_" + 
+          .attr("src", data[i].file_path + data[i].file_name).attr("width", "150px").attr("alt", data[i].obj_name).attr("data-obj-id", data[i].id);
 
         $("#rooms").append($imgThumbnail);
 
