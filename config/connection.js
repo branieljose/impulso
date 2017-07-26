@@ -9,7 +9,7 @@ if(process.env.JAWSDB_URL){
   	var connection = mysql.createConnection({
   		host: "localhost",
   		user: "root",
-  		password: "root",
+  		password: "",
   		port: 3306,
   		database: "impulso_db"
   });
