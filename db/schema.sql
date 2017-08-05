@@ -61,7 +61,7 @@ DEFAULT CHARACTER SET = utf8;
 CREATE TABLE IF NOT EXISTS canvas (
   id INT(11) NOT NULL AUTO_INCREMENT,
   canvas_name VARCHAR(255) NOT NULL,
-  canvas_size VARCHAR(255) NOT NULL,
+  canvas_size INT(225) NOT NULL,
   real_uom char(1) NOT NULL,
   real_height INT(11) NOT NULL,
   real_width INT(11) NOT NULL,

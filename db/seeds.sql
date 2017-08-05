@@ -230,35 +230,42 @@ select @rcds as 'Rows Loaded';
 -- Load Objects - Rooms
 select 'Objects:Rooms' as 'Loading Table'; 
 INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
-VALUES ('room01',5,null,800,1200,true,false,null,'/app/Media/Rooms/','br01.jpg');
+VALUES ('room01',5,null,800,1200,true,false,null,'/app/Media/Rooms/','cr01_ss_242225470.jpg');
 INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
-VALUES ('room02',5,null,800,1200,true,false,null,'/app/Media/Rooms/','gl01.jpg');
+VALUES ('room02',5,null,800,1200,true,false,null,'/app/Media/Rooms/','er01_ss_510807781.jpg');
 INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
-VALUES ('room03',5,null,800,1200,true,false,null,'/app/Media/Rooms/','lb01.jpg');
+VALUES ('room03',5,null,800,1200,true,false,null,'/app/Media/Rooms/','er02_ss_494779795.jpg');
 INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
-VALUES ('room04',5,null,800,1200,true,false,null,'/app/Media/Rooms/','lr01.jpg');
+VALUES ('room04',5,null,800,1200,true,false,null,'/app/Media/Rooms/','er03_ss_400105312.jpg');
 INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
-VALUES ('room05',5,null,800,1200,true,false,null,'/app/Media/Rooms/','lr02.jpg');
+VALUES ('room05',5,null,800,1200,true,false,null,'/app/Media/Rooms/','er04_ss_414284713.jpg');
 INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
-VALUES ('room06',5,null,800,1200,true,false,null,'/app/Media/Rooms/','br01_ss_37866571.jpg');
+VALUES ('room06',5,null,800,1200,true,false,null,'/app/Media/Rooms/','er05_ss_289077719.jpg');
 INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
-VALUES ('room07',5,null,800,1200,true,false,null,'/app/Media/Rooms/','br02_ss_130470404.jpg');
+VALUES ('room07',5,null,800,1200,true,false,null,'/app/Media/Rooms/','er06_IMGP6298_001.jpg');
 INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
-VALUES ('room08',5,null,800,1200,true,false,null,'/app/Media/Rooms/','br03_ss_413684080.jpg');
+VALUES ('room08',5,null,800,1200,true,false,null,'/app/Media/Rooms/','er07_ss_524569297.jpg');
 INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
-VALUES ('room09',5,null,800,1200,true,false,null,'/app/Media/Rooms/','dr01_ss_8570896.jpg');
+VALUES ('room09',5,null,800,1200,true,false,null,'/app/Media/Rooms/','er08_ss_8570896.jpg');
 INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
-VALUES ('room10',5,null,800,1200,true,false,null,'/app/Media/Rooms/','dr02_ss_524569297.jpg');
+VALUES ('room10',5,null,800,1200,true,false,null,'/app/Media/Rooms/','er10_ss_130470404.jpg');
 INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
-VALUES ('room11',5,null,800,1200,true,false,null,'/app/Media/Rooms/','lr01_ss_289077719.jpg');
+VALUES ('room11',5,null,800,1200,true,false,null,'/app/Media/Rooms/','er11_ss_413684080.jpg');
 INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
-VALUES ('room12',5,null,800,1200,true,false,null,'/app/Media/Rooms/','lr02_ss_345232532.jpg');
+VALUES ('room12',5,null,800,1200,true,false,null,'/app/Media/Rooms/','gl01.jpg');
 INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
-VALUES ('room13',5,null,800,1200,true,false,null,'/app/Media/Rooms/','lr03_ss_400105312.jpg');
+VALUES ('room13',5,null,800,1200,true,false,null,'/app/Media/Rooms/','lr01.jpg');
 INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
-VALUES ('room14',5,null,800,1200,true,false,null,'/app/Media/Rooms/','lr04_ss_414284713.jpg');
+VALUES ('room14',5,null,800,1200,true,false,null,'/app/Media/Rooms/','lr02.jpg');
 INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
-VALUES ('room15',5,null,800,1200,true,false,null,'/app/Media/Rooms/','lr05_ss_494779795.jpg');
+VALUES ('room15',5,null,800,1200,true,false,null,'/app/Media/Rooms/','lr03_ss_507907399.jpg');
+INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
+VALUES ('room16',5,null,800,1200,true,false,null,'/app/Media/Rooms/','lr04.jpg');
+INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
+VALUES ('room17',5,null,800,1200,true,false,null,'/app/Media/Rooms/','sr01_ss_516539476.jpg');
+INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
+VALUES ('room18',5,null,800,1200,true,false,null,'/app/Media/Rooms/','sr02_ss_253334842.jpg');
+
 
 select count(*) from objects where obj_type_id=5 into @rcds; 
 select @rcds as 'Rows Loaded';
