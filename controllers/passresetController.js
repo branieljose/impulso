@@ -8,7 +8,7 @@ var router = express.Router();
 var user = require("../models/user.js");
 
 //checks email, creates and store hash, sends email.
-router.post("/", function(req, res) {
+router.post("", function(req, res) {
   var email = req.body.email;
   var fullUrl = req.protocol + '://' + req.get('host') + req.originalUrl;
 
