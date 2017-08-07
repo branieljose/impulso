@@ -58,7 +58,7 @@ function resetPass(newPass, passHash, res){
         user.update({ password_hash: JSON.stringify(hash) }, condition, function(data) {
             console.log(data);
             console.log("Password has been updated!");
-             res.redirect(303, "/app");
+             res.send(true);
         });
       });
     });
@@ -69,7 +69,7 @@ function verifyHash(hash, res){
 
   user.some("pass_reset_hash=" + JSON.stringify(hash), function(data) {
     if (Object.keys(data).length == 0) {
-        res.redirect("/app");
+        res.redirect("/");
         console.log(data)
         console.log("hash not found")
     } else {
@@ -103,8 +103,8 @@ function sendEmail(email, hash, name) {
   var transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-          user: 'miavetrina.recovery',
-          pass: '@miavetrina'
+          user: 'fakatoon',
+          pass: 'Veloster23'
       }
 });
 

@@ -331,63 +331,63 @@ select @rcds as 'Rows Loaded';
 -- Load Objects - Furniture
 select 'Objects:Furniture' as 'Loading Table'; 
 INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
-VALUES ('armchair01',4,5,400,400,false,false,null,'/app/Media/Furniture/','armchair01.png');
+VALUES ('armchair01',4,5,400,400,false,false,null,'/app/Media/Furniture/','accent_f_30x30_mirror.png');
 INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
-VALUES ('armoire01',4,4,400,400,false,false,null,'/app/Media/Furniture/','armoire01.png');
+VALUES ('armoire01',4,4,400,400,false,false,null,'/app/Media/Furniture/','accent_f_36x56_studio455mirror.png');
 INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
-VALUES ('bed01',4,2,400,400,false,false,null,'/app/Media/Furniture/','bed01.png');
+VALUES ('bed01',4,2,400,400,false,false,null,'/app/Media/Furniture/','accent_f_44x44_mirror.png');
 INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
-VALUES ('bed02',4,2,400,400,false,false,null,'/app/Media/Furniture/','bed02.png');
+VALUES ('bed02',4,2,400,400,false,false,null,'/app/Media/Furniture/','bed_f_35x64_mikkel.png');
 INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
-VALUES ('chair03',4,5,400,400,false,false,null,'/app/Media/Furniture/','chair03.png');
+VALUES ('chair03',4,5,400,400,false,false,null,'/app/Media/Furniture/','bed_f_51x65_chloe.png');
 INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
-VALUES ('chair07',4,5,400,400,false,false,null,'/app/Media/Furniture/','chair07.png');
+VALUES ('chair07',4,5,400,400,false,false,null,'/app/Media/Furniture/','bed_r_35x91_mikkel.png');
 INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
-VALUES ('chair08',4,5,400,400,false,false,null,'/app/Media/Furniture/','chair08.png');
+VALUES ('chair08',4,5,400,400,false,false,null,'/app/Media/Furniture/','bed_r_51x93_chloe.png');
 INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
-VALUES ('chaise01',4,12,400,400,false,false,null,'/app/Media/Furniture/','chaise01.png');
+VALUES ('chaise01',4,12,400,400,false,false,null,'/app/Media/Furniture/','bed_s_35x91_mikkel.png');
 INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
-VALUES ('chestmirror01',4,9,400,400,false,false,null,'/app/Media/Furniture/','chestmirror01.png');
+VALUES ('chestmirror01',4,9,400,400,false,false,null,'/app/Media/Furniture/','bed_s_51x93_chloe.png');
 INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
-VALUES ('closet01',4,7,400,400,false,false,null,'/app/Media/Furniture/','closet01.png');
+VALUES ('closet01',4,7,400,400,false,false,null,'/app/Media/Furniture/','bench_f_17x63_ziggy.png');
 INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
-VALUES ('framedmirror01',4,13,400,400,false,false,null,'/app/Media/Furniture/','framedmirror01.png');
+VALUES ('framedmirror01',4,13,400,400,false,false,null,'/app/Media/Furniture/','bench_f_20x52_phoebe.png');
 INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
-VALUES ('futon01',4,10,400,400,false,false,null,'/app/Media/Furniture/','futon01.png');
+VALUES ('futon01',4,10,400,400,false,false,null,'/app/Media/Furniture/','bench_f_22x58_landry.png');
 INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
-VALUES ('futon02',4,10,400,400,false,false,null,'/app/Media/Furniture/','futon02.png');
+VALUES ('futon02',4,10,400,400,false,false,null,'/app/Media/Furniture/','bench_f_23x47_acorn.png');
 INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
-VALUES ('futon03',4,10,400,400,false,false,null,'/app/Media/Furniture/','futon03.png');
+VALUES ('futon03',4,10,400,400,false,false,null,'/app/Media/Furniture/','bench_r_17x63_ziggy.png');
 INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
-VALUES ('loveseat01',4,15,400,400,false,false,null,'/app/Media/Furniture/','loveseat01.png');
+VALUES ('loveseat01',4,15,400,400,false,false,null,'/app/Media/Furniture/','bench_r_22x60_landry.png');
 INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
-VALUES ('mirror01',4,13,400,400,false,false,null,'/app/Media/Furniture/','mirror01.png');
+VALUES ('mirror01',4,13,400,400,false,false,null,'/app/Media/Furniture/','chair_b_43x24_hayden.png');
 INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
-VALUES ('plant01',4,14,400,400,false,false,null,'/app/Media/Furniture/','plant01.png');
+VALUES ('plant01',4,14,400,400,false,false,null,'/app/Media/Furniture/','chair_f_29x25_emil.png');
 INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
-VALUES ('schrank01',4,5,400,400,false,false,null,'/app/Media/Furniture/','schrank01.png');
+VALUES ('schrank01',4,5,400,400,false,false,null,'/app/Media/Furniture/','chair_f_30x28.png');
 INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
-VALUES ('sectional01',4,15,400,400,false,false,null,'/app/Media/Furniture/','sectional01.png');
+VALUES ('sectional01',4,15,400,400,false,false,null,'/app/Media/Furniture/','chair_f_32x26_aluna.png');
 INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
-VALUES ('sofa01',4,15,400,400,false,false,null,'/app/Media/Furniture/','sofa01.png');
+VALUES ('sofa01',4,15,400,400,false,false,null,'/app/Media/Furniture/','chair_f_32x27_nook.png');
 INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
-VALUES ('sofa03',4,15,400,400,false,false,null,'/app/Media/Furniture/','sofa03.png');
+VALUES ('sofa03',4,15,400,400,false,false,null,'/app/Media/Furniture/','chair_f_33x33.png');
 INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
-VALUES ('sofa04',4,15,400,400,false,false,null,'/app/Media/Furniture/','sofa04.png');
+VALUES ('sofa04',4,15,400,400,false,false,null,'/app/Media/Furniture/','chair_f_34x17_crestwood.png');
 INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
-VALUES ('sofa05',4,15,400,400,false,false,null,'/app/Media/Furniture/','sofa04.png');
+VALUES ('sofa05',4,15,400,400,false,false,null,'/app/Media/Furniture/','chair_f_34x19_porter.png');
 INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
-VALUES ('sofa06',4,15,400,400,false,false,null,'/app/Media/Furniture/','sofa06.png');
+VALUES ('sofa06',4,15,400,400,false,false,null,'/app/Media/Furniture/','chair_f_34x29_grace.png');
 INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
-VALUES ('sofa07',4,15,400,400,false,false,null,'/app/Media/Furniture/','sofa07.png');
+VALUES ('sofa07',4,15,400,400,false,false,null,'/app/Media/Furniture/','chair_f_35x37_rowan.png');
 INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
-VALUES ('sofa08',4,15,400,400,false,false,null,'/app/Media/Furniture/','sofa08.png');
+VALUES ('sofa08',4,15,400,400,false,false,null,'/app/Media/Furniture/','chair_f_36x24_mykonos.png');
 INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
-VALUES ('sofa10',4,15,400,400,false,false,null,'/app/Media/Furniture/','sofa10.png');
+VALUES ('sofa10',4,15,400,400,false,false,null,'/app/Media/Furniture/','chair_f_36x38.png');
 INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
-VALUES ('wickerchair01',4,6,400,400,false,false,null,'/app/Media/Furniture/','wickerchair01.png');
+VALUES ('wickerchair01',4,6,400,400,false,false,null,'/app/Media/Furniture/','chair_f_37x38_dean.png');
 INSERT INTO objects (obj_name, obj_type_id, obj_cat_id, height, width, static, useradd, user_id, file_path, file_name) 
-VALUES ('coffeetable01',4,16,400,400,false,false,null,'/app/Media/Furniture/','coffeetable01.png');
+VALUES ('coffeetable01',4,16,400,400,false,false,null,'/app/Media/Furniture/','chair_f_38x25_axel.png');
 
 select count(*) from objects where obj_type_id=4 into @rcds; 
 select @rcds as 'Rows Loaded';

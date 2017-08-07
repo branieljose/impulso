@@ -125,7 +125,12 @@ body {
           method: "put",
           data: password
     }).done(function(data){
-      window.location = data.redirect
+      if(data){
+        alert(hello)
+        window.location = 'https://impulsoapp.herokuapp.com/'
+
+      }
+      
 
     });
     }else{ console.log("Passwords Don't match")}
