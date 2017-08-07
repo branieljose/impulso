@@ -9,7 +9,8 @@ var user = require("../models/user.js");
 
 //checks email, creates and store hash, sends email.
 router.post("/", function(req, res) {
-    var email = req.body.email;
+  var email = req.body.email;
+  var fullUrl = req.protocol + '://' + req.get('host') + req.originalUrl;
 
   user.some("email=" + JSON.stringify(email), function(data) {
 
@@ -19,7 +20,7 @@ router.post("/", function(req, res) {
       } else {
           var hash = createHash(20);
           var name = data[0].first_name;
-          sendEmail(email, hash, name);
+          sendEmail(email, hash, name, fullUrl);
           storeHash(email, hash);
           console.log("email found");
 
@@ -95,9 +96,9 @@ function storeHash(email, hash) {
     });
 };
 
-function sendEmail(email, hash, name) {
+function sendEmail(email, hash, name, fullUrl) {
   var nodemailer = require('nodemailer');
-  var url = "http://localhost:3000/passreset/36bledv3asa5yw96hnlv/"+hash;
+  var url = fullUrl + '/36bledv3asa5yw96hnlv/' + hash;
 
   // create reusable transporter object using the default SMTP transport
   var transporter = nodemailer.createTransport({
