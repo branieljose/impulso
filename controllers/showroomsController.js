@@ -84,7 +84,7 @@ router.post("/save_tn/:id", upload.single("blob"),  function (req, res, next) {
 });
 
 router.post("/create_layer", function (req, res) {
-	console.log(req.data)
+	console.log('req.data line 87:showroomsController', req)
 	var data = {
 		status_code: "",
 		layer_id: 0
@@ -104,6 +104,7 @@ router.post("/create_layer", function (req, res) {
 				parseFloat(req.body.angle), req.body.color, parseInt(req.body.opacity), 
 				req.body.object_type, parseInt(req.body.object_id), flipped, 
 				parseInt(req.body.showroom_id)];
+				console.log('Values inserted into layers', vals)
 
 	layer.create(cols, vals, function (response) {
 		data.layer_id = response.insertId; //only way to get id of an insert for the mysql npm package

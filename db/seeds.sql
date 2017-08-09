@@ -1,4 +1,4 @@
-USE impulso_db;
+USE thyjyb9drx4rs95j;            
 
 set @rcds = 0; 
 
