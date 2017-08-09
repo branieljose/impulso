@@ -84,6 +84,7 @@ router.post("/save_tn/:id", upload.single("blob"),  function (req, res, next) {
 });
 
 router.post("/create_layer", function (req, res) {
+	console.log(req.data)
 	var data = {
 		status_code: "",
 		layer_id: 0

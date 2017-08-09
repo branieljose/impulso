@@ -1,3 +1,4 @@
+var http = require('http');
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
@@ -10,6 +11,8 @@ var methodOverride = require('method-override');
 var PORT = process.env.PORT || 3000
 
 var app = express();
+
+var server = http.createServer(app);
 
 // Serve static content for the app from the "public" directory in the application directory.
 //Vinny put this back, needed to serve index.html content
@@ -56,7 +59,7 @@ app.use("/login", signupController);
 app.use("/passreset", passresetController);
 
 
-app.listen(PORT, function() {
+server.listen(PORT, function() {
     console.log('listening on port ' + PORT)
 
 });
